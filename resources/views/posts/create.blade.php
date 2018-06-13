@@ -2,9 +2,9 @@
 
 @section('content')
 
-<form action="/post" method="post">
+<form enctype="multipart/form-data" action="/post" method="post">
 	
-
+{{csrf_field()}}
 		<div class="page-header">
   <h1>Добавьте пост </h1>
     <small></small>
@@ -32,13 +32,13 @@
             <textarea class="form-control" type="text" name="body" id="body"></textarea>
         </div>
 
-        <div class="form-group">
-            <button class="btn btn-primary" type="submit">Запостить</button>
-        </div>
+        
         
         <div class="form-group">
+
             <p><input type="file" name="file">
-           <input type="submit" value="Отправить"></p>
+                <input type="hidden" name="MAX_FILE_SIZE" value="30000" />
+           <input class="btn btn-primary" type="submit" value="Отправить"></p>
         </div>
         </form>
 
