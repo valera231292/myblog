@@ -7,7 +7,7 @@
 
             <div class="blog-post">
                 <h2 class="blog-post-title">{{$posts->title}}</h2>
-                <p class="blog-post-meta">January 1, 2014 </p>
+                <p class="blog-post-meta">Дата создания {{$posts->created_at}}</p>
 
                 <p>
                     {{$posts->body}}

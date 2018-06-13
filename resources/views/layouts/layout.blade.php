@@ -24,7 +24,7 @@
 <div class="jumbotron" >
     <div class="container" >
         <div class="page-header">
-   <h>Блог Валерия Проскурякова</h>
+   <h style="font-size: 40px;">Блог Валерия Проскурякова</h>
     <small>На ларавел</small>
   </h1>
 </div>
