@@ -2,7 +2,7 @@
 
 @section('content')
 
-<form>
+<form action="/post" method="post">
 	
 
 		<div class="page-header">
@@ -37,7 +37,7 @@
         </div>
         
         <div class="form-group">
-            <p><input type="file" name="f">
+            <p><input type="file" name="file">
            <input type="submit" value="Отправить"></p>
         </div>
         </form>
