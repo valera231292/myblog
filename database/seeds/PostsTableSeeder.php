@@ -15,6 +15,7 @@ class PostsTableSeeder extends Seeder
 
 array([
          'title'=>"Php is awesome",
+         'alias'=>"Php is awesome",
          'intro'=> "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
 
          'body'=> "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
@@ -23,14 +24,14 @@ array([
       [
          'title'=>"Проскуряков Валерий",
          'intro'=> "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
-
+          'alias'=>"123",
          'body'=> "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
 
       ],
       [
          'title'=>"Мой блог",
          'intro'=> "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
-
+         'alias'=>"123",
          'body'=> "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
 
       ]

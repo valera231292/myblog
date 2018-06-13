@@ -5,6 +5,13 @@
 <form>
 	
 
+		<div class="page-header">
+  <h1>Добавьте пост </h1>
+    <small></small>
+  
+</div>
+       
+	
         <div class="form-group">
             <label for="title">Title:</label>
             <input class="form-control" type="text" name="title" id="title">
