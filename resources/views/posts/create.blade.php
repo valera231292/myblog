@@ -40,6 +40,10 @@
                 <input type="hidden" name="MAX_FILE_SIZE" value="30000" />
            <input class="btn btn-primary" type="submit" value="Отправить"></p>
         </div>
+
+        @include('layouts.error')
+
+        </div>
         </form>
 
 @endsection
